@@ -1,13 +1,10 @@
 public class Autor {
     String name; //Имя
     String surname; //Фамилия
-    int dob; //Дата рождения
+    int dob; //Год рождения
 
     //Конструктор по умолчанию
     public Autor() {
-        name = "Unknown";
-        surname = "Unknown";
-        dob = 0;
     }
 
     //Конструктор с параметрами
