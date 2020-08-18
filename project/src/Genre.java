@@ -1,5 +1,5 @@
 public class Genre {
-    String genre_name; //Название жанра
+    String name; //Название жанра
     int numberOfBooks; //Количество книг данного жанра
     int row; //Ряд в библиотеке
 
@@ -7,15 +7,15 @@ public class Genre {
     public Genre() {
     }
 
-    public Genre(String genre_name, int numberOfBooks, int row) {
-        this.genre_name = genre_name;
+    public Genre(String name, int numberOfBooks, int row) {
+        this.name = name;
         this.numberOfBooks = numberOfBooks;
         this.row = row;
     }
 
     //Вывод
     void out() {
-        System.out.println("Название жанра: " + genre_name);
+        System.out.println("Название жанра: " + name);
         System.out.println("Количество книг: " + numberOfBooks);
         System.out.println("Ряд в библиотеке: " + row);
     }
